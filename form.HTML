@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> bref 3 </title>
+        <script type="text/javascript"  src="date.js" async></script>
+       
+
+    </head>
+    <body>
+   <p  id="time"></p>
+        <fieldset>
+        <legend> INSCREPTION </legend>
+      <form>
+            <table>
+                <tr>
+                 <td><label for="NOM">NOM*</label></td>
+                 <td><input  type="texte" id="n" placeholder="Entrer votre Nom"></td>
+                 <td><p id="vn"></p></td>
+                </tr>
+                <tr>
+             <td><label for="prenom">prénom*</label></td>
+             <td><input  type="texte" id="p" placeholder="entrer votre prénom"> </td> 
+             <td><p id="vp"></p></td></tr>
+                <tr>
+                 <td><label  for="age"> Age*</label></td>
+                 <td><input type="date" id="D" ></td>
+                <td> <p id="vd"></p></td> </tr>
+
+             <td><label for="nbre">Code postale*</label> </td>
+             <td><input  type="text" id="cp"></td>
+             <td><p id="vcp"></p></td> </tr>
+             
+             <tr>
+              <td> <label for="pays">Pays*</label></td>
+            <td><select>
+                   <option>please select </option>
+                   <option> maroc</option>
+                   <option>france</option>
+                   <option>canada</option>
+                   <option>italie</option>
+             </select></td> 
+            </tr> 
+             <tr>
+            <td> <label for="Genre">Genre*</label> </td>
+             
+             <td><input name="genre" type="radio" value="Masculin" > Masculin
+            <input name="genre"  type= "radio" value="Féminin" > Féminin </td>
+            </tr>
+             <tr>
+             <td><label for="contacte">Préférences de contacte*</label></td>
+             <td>
+            <input name="contacte" type="checkbox" value="Fax"> Fax 
+             <input name="contacte" type="checkbox" value="Email"> Email
+             <input name="contacte" type="checkbox"  value="Téléphone"> Téléphone
+             </td>
+            </tr>
+             <tr>
+             <td><label for="Email">Email*</label></td>
+             <td><input type="email" id="Email"></td>
+             <td><p id="vEmail"></p></td> </tr> 
+             <tr>
+            <td><label for="Password">Password(6-8 characters)*</label></td> 
+            <td><input type="password" id=passw</td> 
+           <td><p id="vpassw"></p></td> </tr>
+
+            <tr>
+             <td><label for="vérification">vérification Password*</label></td>
+             <td><input type="password"</td>
+            </tr>
+
+             <tr>
+                <td></td>
+             <td><input type="button"   value="envoyer" onclick="Validation()"> 
+             <input type="button" value="Effacer"> </td>
+            </tr>
+         </table>
+     </form> 
+    </fieldset>   
+   
+           
+ </body>
+</html>
